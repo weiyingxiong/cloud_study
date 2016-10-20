@@ -15,6 +15,7 @@ public class Main {
 		do
 		{
 			input = in.nextLine();
+			//check head
 			if(input.startsWith("$GPRMC,")){
 				startindex = input.indexOf('$');
 				endindex = input.indexOf('*');
