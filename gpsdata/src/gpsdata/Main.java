@@ -42,6 +42,7 @@ public class Main {
 			}	
 		}while(!(input.equals("END")));
 		in.close();
+		//time output
 		if(validgps != null){
 			startindex = validgps.indexOf(',');
 			time = validgps.substring(startindex + 1);
